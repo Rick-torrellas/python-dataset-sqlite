@@ -5,6 +5,6 @@ from tabla_usuarios import usuarios,db
 usuarios.update({# type: ignore
     'nombre': 'Ana',
     'edad': 122  # Actualizar edad
-}, ['nombre'])  # Buscar por el campo 'nombre'
+}, ['nombre'])  # Buscar por el campo 'nombre'  
 
 db.close()
